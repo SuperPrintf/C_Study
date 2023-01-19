@@ -12,7 +12,9 @@
 * 每一个寻址单位大小为1字节(Byte)即8位(bit)<br>
 * 内存地址的寻址范围与系统位相关,因此指针通常与`usingned int`数据类型等价(即存储的二进制位数等于系统位数,64位机上等价long)<br>
 * 例如32位机可寻址2^32(4G)个地址,64位机可寻址2^64个地址<br>
-![内存部件](https://github.com/SuperPrintf/C_Study/blob/main/img/RAM.jpeg "DDR内存条")
+<div align="center">
+
+![内存部件](https://github.com/SuperPrintf/C_Study/blob/main/img/RAM.jpeg "DDR内存条")</div>
 ## 2. **指针的含义**
 * 指针类型不是一个独立的类型,它是一类拥有指针特性变量的统称<br>
 * 指针的作用是指向`计算机内存`中的某个空间,因此指针也是一种整型变量(代表目标地址在内存中的)<br>
@@ -21,6 +23,9 @@
 * 指针指向的目标地址可以间接的调用,即通过地址来找到相应数据而非直接访问数据<br>
 * 由于指针是变量,因此它指向的地址可以随时改变,具有灵活性<br>
 * 指针虽然只指向一个地址,但是指针拥有加减运算符,可以访问连续空间<br>
+<div align="center">
+
+![内存部件](https://github.com/SuperPrintf/C_Study/blob/main/img/Space.jpeg "指针的示意图")</div>
 ## 3. **指针的使用**
 * 指针的变量声明通过`[type] *`的形式表示，该指针的类型即为相应的type *类型<br>
 * **指针使用样例**<br>
