@@ -1,4 +1,4 @@
 .DS_Store
 .vscode
-.dSYM
-.exec
+*.dSYM
+*.exec
